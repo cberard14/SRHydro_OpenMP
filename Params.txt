@@ -1,0 +1,19 @@
+ncells = 5000
+gamma = 5.0/3.0 
+CFL = 0.8
+simulation_type = 1 
+BC_type = 0
+write_interval = 20   
+do_PPM = 0 
+t_end = 0.1
+
+grid_length = 1.0 
+boundary_center = 0.5 
+PL = 1000.0 
+PR = 0.01
+rhoL = 1.0 
+rhoR = 1.0  
+vxL = 0.0  
+vxR = 0.0  
+vyL = 0.0
+vyR = 0.0

@@ -1,0 +1,9 @@
+export PATH=$PATH:/scinet/bgq/bin/:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/scinet/gpc/toolbin:/scinet/gpc/toolbin/vnc:/scinet/gpc/toolbin/x11/bin:/usr/lpp/mmfs/bin:/opt/torque/bin:/opt/torque/sbin:
+
+
+module purge
+module load Xlibraries extras emacs git
+module load gcc/4.8.1
+module load openmpi/gcc/1.6.4
+module load boost/1.54.0-gcc4.8.1
+module load gsl/1.16-gcc
