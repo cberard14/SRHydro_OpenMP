@@ -65,7 +65,6 @@ double FP(double Pg, void* PrimitiveValues)
 	ConservedtoPrimitive* Pvals = (ConservedtoPrimitive*)PrimitiveValues;
 	double Pressure;
 	Pressure=Pvals->Pvalue(Pg);
-	delete Pvals;
 	return Pressure-Pg;
 }
 
