@@ -21,6 +21,9 @@ boost/1.54.0-gcc4.8.1
 
 gsl/1.16-gcc
 
+## Documentation: what does everything do?
+For now, please see the comments in the header files for each function; these give a summary of what the functions are supposed to do.
+
 ## How to Run
 Type "make" to compile the code. This gives 3 executables; "Hydro", the main hydrocode, "RiemannTester" which allows one to test problematic points for the Riemann solver, and "ConservativeToPrimitiveTester" which does the same but tests the routine which maps conservative variables to their primitive counterparts. Conservative variables are the variables that are updated directly (energy (Em), x- and y-momentum (Smx, Smy, where x is along the grid, y is perpendicular), volume (Vm)), while primitive variables are pressure (P), density (rho), x- and y-velocity (vx, vy) and are what the Riemann solver takes as input and returns as output in order to update the conserved variables. 
 
