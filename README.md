@@ -12,9 +12,13 @@ Plots of this speed/accuracy improvement are to come!
 I tested this code using Scinet, on the GPC. It has been tested and works there. The modules I've loaded to get the code to work are in the "setup" file. Simply by typing "source setup" the appropriate modules will be loaded. 
 
 Module list:
+
 gcc/4.8.1
+
 openmpi/gcc/1.6.4
+
 boost/1.54.0-gcc4.8.1
+
 gsl/1.16-gcc
 
 ## How to Run
