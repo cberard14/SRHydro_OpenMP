@@ -224,6 +224,7 @@ double FRiemann(double Pg, void* Riemannvalues){
 	{
 		vRwave = Rvals->shockvelocity(Pg,1);
 	}
+	delete Rvals; // free pointer
 	return vLwave-vRwave;
 }
 
