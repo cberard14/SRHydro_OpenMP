@@ -1,8 +1,11 @@
 #ifndef _INIFILEH_
 #define _INIFILEH_
 
+//***************************************************************************************\\
 // PLEASE NOTE: This file was not written by me. This header file was available through
 // a Scinet course I took.
+//***************************************************************************************\\
+
 
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/ini_parser.hpp>
