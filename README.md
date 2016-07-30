@@ -9,10 +9,9 @@ Plots of this speed/accuracy improvement are to come!
 
 To do:
 - write up official documentation!
-- further modularize functions in "Hydro.cpp" -- should get their own files and headers to allow easier editing...
 - add error catching for NaNs and Infs coming out of the Riemann solver and conserved to primitive variable mapper
 - add Python code for the analytic solution
-- add easy initial conditions for Sedov Shock tube and fully custom initial conditions
+- add initial conditions for Sedov Shock tube and fully custom initial conditions (ex. read initial pressure, density, velocities from file)
 - add reflective, free boundary conditions
 - add different symmetries (when sideflow disabled -- sideflow only works in planar symmetry)
 - add pictures/visualizations of the code at work
