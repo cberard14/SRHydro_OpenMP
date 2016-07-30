@@ -63,7 +63,10 @@ double ConservedtoPrimitive::Pvalue(double Pg)
 double FP(double Pg, void* PrimitiveValues)
 {
 	ConservedtoPrimitive* Pvals = (ConservedtoPrimitive*)PrimitiveValues;
-	return (Pvals->Pvalue(Pg))-Pg;
+	double Pressure;
+	Pressure=Pvals->Pvalue(Pg);
+	delete Pvals;
+	return Pressure-Pg;
 }
 
 void ConservedToPrimitiveDriver(double gamma, double Em, \
