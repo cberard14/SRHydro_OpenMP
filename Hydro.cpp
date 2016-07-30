@@ -66,6 +66,7 @@ void ApplyBCs(int BC, std::vector<double>& P, std::vector<double>& rho, \
 			  std::vector<double>& Plong, std::vector<double>& rholong, \
 			  std::vector<double>& vxlong, std::vector<double>& vylong)
 {
+	int n=Plong.size();
 	// Update ghost cell values
 	for (int i=1;i<n-1;i++)
 	{
