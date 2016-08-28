@@ -1,5 +1,7 @@
 # Special Relativistic 1.5 Dimensional Lagrangian Hydrocode
 
+For performance plots, see the wiki!
+
 ## Introduction: what is it, why was it made?
 Welcome to the page for my special relativistic Hydrocode! It is a Lagrangian Hydrocode that uses a conservative scheme for updating cell values. It uses a special relativistic Riemann solver which works with sideflow -- hence, it is "1.5" dimensional. The conservative scheme was written following the PPM (piecewise parabolic method) paper from Collela & Woodward 1984, while the exact Riemann solver was written following the approach of Pons, Marti and Muller 2000.
 
