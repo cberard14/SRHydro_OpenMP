@@ -9,7 +9,7 @@ void CallRiemann(double gamma, std::vector<double>& Plong, \
 	// fill Pstar, vxstar (boundary values for P, vx)
   	int n = Plong.size();
 
-#pragma omp parallel for shared(Pstar,vxstar)
+#pragma omp parallel for
 	for (int i=0;i<n-1;i++)
 	{
 		RiemannDriver(gamma,Plong[i],Plong[i+1],rholong[i],rholong[i+1], \
