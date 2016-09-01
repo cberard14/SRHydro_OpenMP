@@ -15,7 +15,7 @@ void CallConservedToPrimitive(double gamma, std::vector<double>& E_m, \
 	int n = E_m.size();
 	double Pval,rhoval,vxval,vyval,Em,Smx,Smy,Vm;
 
-#pragma omp parallel for shared(P,rho,vx,vy,Smxold,S_mx,Vmold,V_m)
+#pragma omp parallel for
 	for (int i=0;i<n;i++)
 	{
 	  Em=E_m[i];
